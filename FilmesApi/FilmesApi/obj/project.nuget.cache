@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SNDHmLzGGyjqFN9ICkfHD9TiviW36MJaXKbHNMaQbT4ofoP7S1Kn7xH9VIIxwQ5q0mW5rAJIlNv2XcIcpR17g==",
+  "dgSpecHash": "6Us7YCMB4U/u2EzDmXxLJInlc8jlfefJRRs3RZ0eMq5lgPOQ6boU7nmeQH6+49Sh9GUfnECi1RzW0zB4qTX2wQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ettore\\Desktop\\projeto-api-dotnet-angular\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+  "projectFilePath": "C:\\Users\\Ettore\\Desktop\\topicos-avancados-si\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ettore\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ettore\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

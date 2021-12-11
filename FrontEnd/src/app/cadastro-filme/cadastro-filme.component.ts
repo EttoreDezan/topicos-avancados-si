@@ -32,6 +32,6 @@ export class CadastroFilmeComponent implements OnInit {
     this.duracao = 0
   }
   ngOnInit(): void {
-  }
 
+  }
 }

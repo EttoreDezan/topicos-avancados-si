@@ -1,0 +1,20 @@
+<h3 class="container mb-3 mt-5">Atualize o filme</h3>
+<form class="container" (ngSubmit)="atualizarFilme()">
+  <div class="form-group col-sm-6">
+    <label for="filmeTitulo">Titulo</label>
+    <input type="text" class="form-control" id="filmeTitulo" [(ngModel)]="titulo" name="titulo">
+  </div>
+  <div class="form-group col-sm-6">
+    <label for="filmeDiretor">Diretor</label>
+    <input type="text" class="form-control" id="filmeDiretor"  [(ngModel)]="diretor" name="diretor">
+  </div>
+  <div class="form-group col-sm-6">
+    <label for="filmeGenero">Gênero</label>
+    <input type="text" class="form-control" id="filmeGenero"  [(ngModel)]="genero" name="genero">
+  </div>
+  <div class="form-group col-sm-2">
+    <label for="filmeDuracao">Duração</label>
+    <input type="number" class="form-control" id="filmeDuracao" [(ngModel)]="duracao" name="duracao">
+  </div>
+  <button type="submit" class="btn btn-primary my-1 mt-3">Atualizar</button>
+</form>

@@ -6401,11 +6401,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ettore\\Desktop\\projeto-api-dotnet-angular\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectUniqueName": "C:\\Users\\Ettore\\Desktop\\topicos-avancados-si\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "projectName": "FilmesApi",
-      "projectPath": "C:\\Users\\Ettore\\Desktop\\projeto-api-dotnet-angular\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
+      "projectPath": "C:\\Users\\Ettore\\Desktop\\topicos-avancados-si\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
       "packagesPath": "C:\\Users\\Ettore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ettore\\Desktop\\projeto-api-dotnet-angular\\FilmesApi\\FilmesApi\\obj\\",
+      "outputPath": "C:\\Users\\Ettore\\Desktop\\topicos-avancados-si\\FilmesApi\\FilmesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

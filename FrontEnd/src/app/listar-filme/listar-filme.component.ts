@@ -11,10 +11,19 @@ export class ListarFilmeComponent implements OnInit {
   filmes: any[] = [];
   constructor(private service: CadastroService) { }
 
+  editarFilme(id: number) {
+    if (this.filmes !== null || this.filmes !== []) {
+      localStorage.setItem('userList', JSON.stringify(this.filmes.filter(x=> x.id === id)))
+    }
+  }
+
   deletarFilme(id: number) {
     this.service.deletarFilme(id).subscribe(
       res => {console.log(res)
-        location.reload();
+        this.service.listarFilmes().subscribe((filmes: CadastroModel[]) => {
+          console.table(filmes)
+          this.filmes = filmes;
+        })
       },
       error => {
         console.error(error)
@@ -23,7 +32,6 @@ export class ListarFilmeComponent implements OnInit {
   }
   ngOnInit(): void {
     this.service.listarFilmes().subscribe((filmes: CadastroModel[]) => {
-      console.table(filmes)
       this.filmes = filmes;
     })
   }

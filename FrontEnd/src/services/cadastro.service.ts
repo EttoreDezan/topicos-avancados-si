@@ -26,4 +26,7 @@ export class CadastroService {
   deletarFilme(id: number): Observable<CadastroModel[]> {
     return this.httpClient.delete<CadastroModel[]>(this.url + id.toString());
   }
+  atualizarFilme(id: number, filme: CadastroModel): Observable<CadastroModel[]> {
+    return this.httpClient.put<CadastroModel[]>(this.url + id.toString(), filme);
+  }
 }

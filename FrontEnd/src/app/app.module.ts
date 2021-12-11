@@ -7,12 +7,14 @@ import { CadastroFilmeComponent } from './cadastro-filme/cadastro-filme.componen
 import {FormsModule} from "@angular/forms";
 import { ListarFilmeComponent } from './listar-filme/listar-filme.component';
 import {HttpClientModule} from "@angular/common/http";
+import { AtualizarFilmeComponent } from './atualizar-filme/atualizar-filme.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroFilmeComponent,
-    ListarFilmeComponent
+    ListarFilmeComponent,
+    AtualizarFilmeComponent
   ],
   imports: [
     BrowserModule,

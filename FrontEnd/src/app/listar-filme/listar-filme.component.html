@@ -1,3 +1,4 @@
+
 <div class="container mt-5">
   <table class="table table-striped table-dark">
     <thead>
@@ -18,7 +19,8 @@
       <td>{{filmes.genero}}</td>
       <td>{{filmes.duracao}}</td>
       <td>
-        <button (click)="deletarFilme(filmes.id)" class="btn btn-danger">Deletar</button>
+        <button (click)=" editarFilme(filmes.id)" [routerLink]="['/atualizarFilmes', filmes.id]" class="btn btn-info">Editar</button>
+        <button (click)="deletarFilme(filmes.id)" class="btn btn-danger m-lg-2">Deletar</button>
       </td>
     </tr>
     </tbody>

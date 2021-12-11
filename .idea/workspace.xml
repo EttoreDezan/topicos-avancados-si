@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd5e884-325a-4d37-aea2-4a265368eb91" name="Changes" comment="" />
+    <list default="true" id="9dd5e884-325a-4d37-aea2-4a265368eb91" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/FilmesApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/FilmesApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/FilmesApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/FilmesApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/ref/FilmesApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/bin/Debug/net5.0/ref/FilmesApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/FilmesApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/ref/FilmesApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/Debug/net5.0/ref/FilmesApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/FilmesApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmesApi/FilmesApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/cadastro-filme/cadastro-filme.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/cadastro-filme/cadastro-filme.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/listar-filme/listar-filme.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/listar-filme/listar-filme.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/app/listar-filme/listar-filme.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/app/listar-filme/listar-filme.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/services/cadastro.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/services/cadastro.service.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21xxw2O84t77FV22HoKKKSCy0pR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,7 +50,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Ettore\Desktop\topicos-avancados-si\FrontEnd\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ettore\Desktop\topicos-avancados-si\FrontEnd\src\services\storage-data" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,7 +68,23 @@
       <option name="presentableId" value="Default" />
       <updated>1638896781701</updated>
       <workItem from="1638896783897" duration="21000" />
+      <workItem from="1638992434526" duration="839000" />
+      <workItem from="1639157829190" duration="11377000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
