@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CadastroService} from "../../services/cadastro.service";
 import {CadastroModel} from "../model/cadastro.model";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-atualizar-filme',
@@ -15,20 +16,26 @@ export class AtualizarFilmeComponent implements OnInit {
   genero: string = this.filmeAlterar[0].genero;
   duracao: number = this.filmeAlterar[0].duracao;
 
-  constructor(private service: CadastroService) { }
+  constructor(private service: CadastroService, private router: Router) {
+  }
 
   atualizarFilme() {
-      this.service.atualizarFilme(this.id,{titulo: this.titulo, diretor: this.diretor, genero: this.genero, duracao: this.duracao}).subscribe(
-        result => {console.log(result)
-          alert("Filme atualizado!")
-        },
-        error => {
-          console.error(error)
-        })
+    this.service.atualizarFilme(this.id, {
+      titulo: this.titulo,
+      diretor: this.diretor,
+      genero: this.genero,
+      duracao: this.duracao
+    }).subscribe(
+      result => {
+        console.log(result)
+        alert("Dados atualizados!")
+        this.router.navigate(['/listarFilmes']);
+      },
+      error => {
+        console.error(error)
+      })
   }
 
   ngOnInit(): void {
-console.log(this.filmeAlterar[0].id)
   }
-
 }

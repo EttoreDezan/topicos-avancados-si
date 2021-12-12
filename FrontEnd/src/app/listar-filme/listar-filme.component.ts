@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CadastroService} from "../../services/cadastro.service";
 import {CadastroModel} from "../model/cadastro.model";
 
@@ -9,19 +9,21 @@ import {CadastroModel} from "../model/cadastro.model";
 })
 export class ListarFilmeComponent implements OnInit {
   filmes: any[] = [];
-  constructor(private service: CadastroService) { }
+
+  constructor(private service: CadastroService) {
+  }
 
   editarFilme(id: number) {
     if (this.filmes !== null || this.filmes !== []) {
-      localStorage.setItem('userList', JSON.stringify(this.filmes.filter(x=> x.id === id)))
+      localStorage.setItem('userList', JSON.stringify(this.filmes.filter(x => x.id === id)))
     }
   }
 
   deletarFilme(id: number) {
     this.service.deletarFilme(id).subscribe(
-      res => {console.log(res)
+      res => {
+        console.log(res)
         this.service.listarFilmes().subscribe((filmes: CadastroModel[]) => {
-          console.table(filmes)
           this.filmes = filmes;
         })
       },
@@ -30,6 +32,7 @@ export class ListarFilmeComponent implements OnInit {
       }
     )
   }
+
   ngOnInit(): void {
     this.service.listarFilmes().subscribe((filmes: CadastroModel[]) => {
       this.filmes = filmes;
